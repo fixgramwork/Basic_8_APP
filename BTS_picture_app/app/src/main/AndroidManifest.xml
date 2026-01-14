@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BTS_picture_app">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Yena9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Yena8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Yena7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Yena6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Yena5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Yena4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Yena3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Yena2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Yena1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

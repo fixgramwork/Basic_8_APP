@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yena1"
+        android:contentDescription="@string/image_description" />
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yena2"
+        android:contentDescription="@string/image_description" />
+
+    <ImageView
+        android:id="@+id/image_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yena3"
+        android:contentDescription="@string/image_description" />
+
+    <ImageView
+        android:id="@+id/image_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yena4"
+        android:contentDescription="@string/image_description" />
+
+    <ImageView
+        android:id="@+id/image_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yena5"
+        android:contentDescription="@string/image_description" />
+
+    <ImageView
+        android:id="@+id/image_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yena6"
+        android:contentDescription="@string/image_description" />
+
+    <ImageView
+        android:id="@+id/image_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yena7"
+        android:contentDescription="@string/image_description" />
+
+    <ImageView
+        android:id="@+id/image_8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yena8"
+        android:contentDescription="@string/image_description" />
+
+    <ImageView
+        android:id="@+id/image_9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yena9"
+        android:contentDescription="@string/image_description" />
+
+</GridLayout>

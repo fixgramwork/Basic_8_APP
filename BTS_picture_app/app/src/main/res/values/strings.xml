@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BTS_Picture_App</string>
+    <string name="app_logo">앱 로고</string>
+    <string name="image_description">예나 사진</string>
+</resources>
