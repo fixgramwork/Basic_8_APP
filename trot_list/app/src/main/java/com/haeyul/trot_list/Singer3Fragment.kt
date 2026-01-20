@@ -15,7 +15,7 @@ class Singer3Fragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
-        val view = inflater.inflate(R.layout.fragment_singer1, container, false)
+        val view = inflater.inflate(R.layout.fragment_singer3, container, false)
 
         view.findViewById<ImageView>(R.id.image1).setOnClickListener {
             it.findNavController().navigate(R.id.action_singer3Fragment_to_singer1Fragment)
